@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="UNSW Cryptocurrency and Blockchain Society">
+        
+        <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:100,300,400,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron:100,300,400,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Francois+One:100,300,400,700,900" rel="stylesheet">
+
+        <!--<link rel="stylesheet" href="css/icon-font.css">-->
+        <link rel="stylesheet" href="css/style.css">
+        <!--<link rel="shortcut icon" type="image/png" href="img/favicon.png">-->
+        
+        <title>UCBS | UNSW Crypto and Blockchain Society</title>
+    </head>
+    <body>
+        <!--FACEBOOK SDK API-->        
+        <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              appId            : '435862820520849',
+              autoLogAppEvents : true,
+              xfbml            : true,
+              version          : 'v3.2'
+            });
+                      /* make the API call */
+            FB.api(
+                "/706999822844466/events",
+                function (response) {
+                  if (response && !response.error) {
+                    console.log('working?');
+                  }
+                }
+            );
+          };
+        </script>
+        <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+        <div class = "main-background">
+            <div class = "background-border">
+                <div class = "header">
+                    <div class = "title-box">
+                        <h1 class = "ucbs">
+                            <span class="heading-primary-main responsive">UNSW Crypto and </br>Blockchain Society</span>
+                            <span class="heading-primary-sub responsive">The Leading Blockchain Club</span> 
+                        </h1>
+                        <div class = "button-box">
+                            <a href="https://www.facebook.com/ucbs.unsw/" class="btn btn-ucbs btn-animated btn-responsive responsive2">Visit our facebook</a>
+                            </br>
+                            </br>
+                            <a href="#middle1" class = "discover-more btn btn-animated btn-responsive responsive2">Meet the Team</a>
+                            </br>
+                            </br>
+                            <a href="#middle5" class = "btn-mission btn btn-animated btn-responsive responsive2">Our mission</a>
+                        </div>
+                    </div>
+                    <div class="logo-box">
+                        <img src="img/ucbslogo.png" alt="UCBS" class="logo">
+                    </div>
+                </div>
+
+                <div class = "middle-section" id = "middle0"></div>
+            </div>
+            <div class = "third-section responsive" id="middle5">
+                <div class ="mission-wrapper responsive">
+                    <h1 class = "our-mission responsive">Our Mission</h1>
+                    <p class="mission-statement responsive"> AT UCBS OUR MISSION IS TO INSERT REST HERE THANKS/ ALSO ADD IMAGES </p>
+                </div>
+            </div>
+            <div class = "section-2 responsive" id = "middle2">
+                <h2 class = "whoarewe">
+                    <p class ="Team">The Team</p></br>
+                    <p> Rao Zoraiz Mahmood - Co President</p>
+                    <p> Kevin Li - Co President</p>
+                    <p> Lanah Husari- HR Director</p>
+                    <p> Desmond Choi - Events Director </p>
+                    <p> Ovais Rathani - News Director</p>
+                    <p> Shantanu Kulkarni- Events Director</p>
+                    <p> Felix Xie - Treasurer</p>
+                    <p> Michael Zheng - Marketing</p>
+                    <p> Tahmid Alamgir - ARC Delegate</p>
+
+                </h2>
+            </div>
+            <div class = "testing" id= "middle1"></div>
+        </div>
+            
+        
+    </body>
+</html>
